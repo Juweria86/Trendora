@@ -153,9 +153,7 @@ const Navbar = ({ openAuth, setOpenAuth, currentUser }) => {
           <MenuRounded style={{ color: "inherit" }} />
         </MobileIcon>
 
-        <NavLogo>
-          <Logo src={LogoImg} />
-        </NavLogo>
+        <h1>Trendora</h1>
 
         <NavItems>
           <Navlink to="/">Home</Navlink>
